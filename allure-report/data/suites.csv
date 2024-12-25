@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7860","@smoke Validate the login functionality with valid credentials of Admin","","Wed Dec 25 19:35:06 IST 2024","passed","Wed Dec 25 19:35:14 IST 2024","","loginTest.spec.js","",""
+"","7300","@smoke Validate the login functionality with valid credentials of user","","Wed Dec 25 19:35:16 IST 2024","passed","Wed Dec 25 19:35:23 IST 2024","","loginTest.spec.js","",""
