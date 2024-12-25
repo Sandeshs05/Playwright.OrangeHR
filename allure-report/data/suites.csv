@@ -1,3 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","7860","@smoke Validate the login functionality with valid credentials of Admin","","Wed Dec 25 19:35:06 IST 2024","passed","Wed Dec 25 19:35:14 IST 2024","","loginTest.spec.js","",""
-"","7300","@smoke Validate the login functionality with valid credentials of user","","Wed Dec 25 19:35:16 IST 2024","passed","Wed Dec 25 19:35:23 IST 2024","","loginTest.spec.js","",""
+"","7357","Login_TC_003 Validate the login functionality with valid credentials of Admin","","Thu Dec 26 00:15:34 IST 2024","passed","Thu Dec 26 00:15:41 IST 2024","","3.1_Login_Functionality/01_loginFlow.spec.js","",""
+"","7673","Login_TC_003 Validate the login functionality with valid credentials of user","","Thu Dec 26 00:15:34 IST 2024","passed","Thu Dec 26 00:15:42 IST 2024","","3.1_Login_Functionality/01_loginFlow.spec.js","",""
+"","7083","Login_TC_002 Validate the login functionality with invalid credentials","","Thu Dec 26 00:15:34 IST 2024","passed","Thu Dec 26 00:15:41 IST 2024","","3.1_Login_Functionality/01_loginFlow.spec.js","",""
+"","7283","Login_TC_001 Validate the login functionality with valid credentials","","Thu Dec 26 00:15:34 IST 2024","passed","Thu Dec 26 00:15:41 IST 2024","","3.1_Login_Functionality/01_loginFlow.spec.js","",""

@@ -1,20 +1,10 @@
-[
-    {
-        "usertype": "Admin",
-        "credentials": [
-            {
-                "username": "Admin",
-                "password": "admin123"
-            }
-        ]
-    },
-    {
-        "usertype": "User",
-        "credentials": [
-            {
-                "username": "Admin",
-                "password": "admin123"
-            }
-        ]
-    }
-]
+[{
+    "usertype": "Admin",
+    "username": "Admin",
+    "password": "admin123"
+},
+{
+    "usertype":"user",
+    "username": "Admin",
+    "password": "admin123"
+}]

@@ -1,10 +1,5 @@
-[{
+{
     "usertype": "Admin",
     "username": "Admin",
     "password": "admin123"
-},
-{
-    "usertype":"user",
-    "username": "Admin",
-    "password": "admin123"
-}]
+}
