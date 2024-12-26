@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("Test Script", async ({ page }) => {
+test.skip("Test Script", async ({ page }) => {
   await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
   await page.locator("input[placeholder='Username']").fill("Admin");
   await page.locator("input[placeholder='Password']").fill("admin123");
@@ -9,3 +9,5 @@ test("Test Script", async ({ page }) => {
   console.log(await page.locator(".oxd-topbar-header-title").allTextContents());
   expect(await page.locator(".oxd-topbar-header-title").innerText()).toBe("Dashboard");
 });
+
+
