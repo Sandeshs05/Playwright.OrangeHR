@@ -8,7 +8,7 @@ import { log } from "console";
 test.describe.configure({ mode: "parallel" });
 test(`Login_TC_001 Validate the login functionality with valid credentials`, async ({ page }) => {
   const poManager = new POManager(page);
-  await poManager.getLoginPage().openApp();
+  await poManager.openApp();
   console.log(loginData);
   await poManager.getLoginPage().validLogin(loginData);
   expect(await poManager.getCommonComponents().getHeaderName()).toBe("Dashboard");
@@ -16,7 +16,7 @@ test(`Login_TC_001 Validate the login functionality with valid credentials`, asy
 
 test("Login_TC_002 Validate the login functionality with invalid credentials", async ({ page }) => {
   const poManager = new POManager(page);
-  await poManager.getLoginPage().openApp();
+  await poManager.openApp();
   const errorMessage = await poManager.getLoginPage().invalidLogin("Admin", "admin1234");
   console.log(errorMessage);
   expect(errorMessage).toBe("Invalid credentials");
@@ -34,7 +34,7 @@ test("Login_TC_002 Validate the login functionality with invalid credentials", a
 for (const data of loginDataWithUsertype) {
   test(`Login_TC_003 Validate the login functionality with valid credentials of ${data.usertype}`, async ({ page }) => {
     const poManager = new POManager(page);
-    await poManager.getLoginPage().openApp();
+    await poManager.openApp();
     console.log(data);
     await poManager.getLoginPage().validLogin(data);
     expect(await poManager.getCommonComponents().getHeaderName()).toBe("Dashboard");

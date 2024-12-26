@@ -7,6 +7,8 @@
     "login": "npx playwright test --grep Login --reporter=line,allure-playwright",
     "smoke": "npx playwright test --grep @smoke --reporter=line,allure-playwright",
     "loginTest": "rm -rf allure-results && npx playwright test --grep Login",
+    "addEmployee": "rm -rf allure-results && npx playwright test --grep AddEmployee",
+    "configChrome": "rm -rf allure-results && npx playwright test --grep Login --config playwright.config1.js --project=Chrome",
   "allure:generate": "npx allure generate ./allure-results --clean",
   "allure:open": "npx allure open ./allure-report"
   },

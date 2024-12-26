@@ -8,9 +8,7 @@ class LoginPg {
     this.loginButton = page.locator("button[type='submit']");
     this.loginErrorMsg = page.locator(".oxd-alert.oxd-alert--error");
   }
-  async openApp() {
-    await this.page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-  }
+
   async validLogin(data) {
     await this.userNameInput.fill(data.username);
     await this.passwordInput.fill(data.password);

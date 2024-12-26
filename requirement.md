@@ -149,7 +149,7 @@ This features section encapsulates all necessary details for building an enterpr
 
 ## 3. Test Cases for Automation
 
-### 3.1 Login Functionality
+### 3.1.1 Login Functionality
 
 - **Scenario:** Validate the login functionality with valid and invalid credentials.
   - **Steps:**
@@ -159,7 +159,7 @@ This features section encapsulates all necessary details for building an enterpr
     4.  Enter invalid credentials and click Login.
     5.  Verify the error message is displayed.
 
-### 3.2 Logout Functionality
+### 3.1.2 Logout Functionality
 
 - **Scenario:** Validate the logout functionality.
   - **Steps:**

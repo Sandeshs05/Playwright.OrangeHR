@@ -1,1 +1,0 @@
-{ usertype: 'user', username: 'Admin', password: 'admin123' }
